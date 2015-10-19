@@ -37,6 +37,10 @@ li {
 	display: bloack;
 }
 
+ul {
+   padding: 0;
+}
+
 .lideco {
 	text-decoration: none;
 }
