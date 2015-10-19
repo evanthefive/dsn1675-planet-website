@@ -34,17 +34,32 @@ body {
 }
 
 li {
-	display: inline-block;
+	display: bloack;
 }
 
 .lideco {
 	text-decoration: none;
 }
 
+.header {
+	text-align: left;
+	background-color: GAINSBORO;
+}
+
 @media only screen and (min-width: 25em) {
 
 	.title {
 		text-align: center;
+	}
+
+	.header {
+		text-align: center;
+		background-color: GAINSBORO;
+	}
+
+
+	li {
+		display: inline-block;
 	}
 }
 
