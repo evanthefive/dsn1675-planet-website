@@ -39,7 +39,7 @@ body {
 
 .navbar {
 	margin-top: auto;
-  margin-bottom: auto;
+  margin-bottom: .5rem;
 }
 
 ul {
@@ -47,13 +47,18 @@ ul {
 }
 
 li {
-    padding-left: 2rem;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
 }
 
 a {
   padding: 1rem;
-  background-color: green;
+}
 
+
+.ventitle {
+	text-align: center;
+	margin-bottom: .5rem;
 }
 
 dd {
@@ -61,8 +66,12 @@ dd {
 	margin-bottom: 1rem;
 }
 
+data {
+  line-height: 1.5rem;
+}
+
 .desc {
-	background-color: pink;
+	background-color: lightgrey;
 }
 
 .secone {
@@ -80,10 +89,9 @@ dd {
 }
 
 .chars {
-	background-color: grey;
+	background-color: lightgrey;
 	margin-top: 1rem;
-	padding-top: 2rem;
-
+	padding-top: .5rem;
 }
 
 
@@ -109,5 +117,65 @@ dd {
 	.title {
 		text-align: left;
 	}
+
+	.venus {
+	text-align: center;
+}
+
+.navbar {
+	margin-top: auto;
+  margin-bottom: auto;
+}
+
+ul {
+   padding: 0;
+}
+
+li {
+    padding-left: 2rem;
+}
+
+a {
+	background-color: lightgrey;
+  padding: 1rem;
+}
+
+
+
+
+
+dd {
+	margin-left: 0rem;
+	margin-bottom: 1rem;
+}
+
+data {
+  line-height: 1.5rem;
+}
+
+.desc {
+	background-color: lightgrey;
+}
+
+.secone {
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+}
+
+.lideco {
+	text-decoration: none;
+}
+
+.header {
+	text-align: left;
+	background-color: #dcdcdc;
+}
+
+.chars {
+	background-color: lightgrey;
+	margin-top: 1rem;
+	padding-top: .5rem;
+}
+
 }
 
